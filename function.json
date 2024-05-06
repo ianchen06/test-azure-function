@@ -1,0 +1,13 @@
+{
+    "bindings": [
+      {
+        "type": "eventHubTrigger",
+        "name": "events",
+        "direction": "in",
+        "eventHubName": "iothub-ehub-techin510-59467401-6d881a7ae1",
+        "connection": "IOTHUB_CONNECTION_STRING",
+        "cardinality": "many",
+        "dataType": "string"
+      }
+    ]
+  }
